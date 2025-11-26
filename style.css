@@ -1,0 +1,196 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(77, 53, 99);
+    margin: 0;
+    padding: 0;
+}
+
+.web-header{
+    width: 100%;
+    height: 70px;
+    background: rgba(242, 215, 243, 0.918);
+    position: sticky;
+    top: 0px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    z-index: 100;
+}
+.header-inner{
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    display: flex;
+    max-width: 1100px;
+    padding: .3rem 1rem;
+}
+.web-link{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        text-decoration: none;
+        font-weight: 700;
+}
+.logo{
+    width: 70px;
+    height: auto;
+    display: block;
+}
+.brand-name {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+}
+
+.web-nav .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    }
+    .nav-link{
+        text-decoration: none;
+        color: black;
+        padding: .35rem .6rem;
+        border-radius: 4px;
+    }
+    .nav-link:hover{
+        background: rgb(63, 4, 97);
+        outline: none;
+        color: white;
+    }
+
+h1 {
+    color: whitesmoke;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+   
+    
+}
+
+.bannerp{
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    padding: 20px 0px 600px 25px;
+}
+
+.banner {
+    background-size: cover;
+    background-image: url(images/wm\ banner.png);
+    background-position: center;
+    color: white;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding:3rem 1rem;
+    }
+    .banner img {
+        max-width:80px;
+    }
+    .about{
+        justify-content: center;
+        align-items: center;
+        display: block;
+        
+    }
+    .purpose {
+        color:rgb(0, 0, 0);
+        font-weight: bolder;
+        font-style: oblique;
+        font-size: 3rem;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .lists {
+        font-weight: 800;
+        color: black;
+        font-size: larger;
+        line-height: 3rem;
+        position: static;
+
+
+    }
+    .banner2 {
+        background-size: cover;
+        background-color: rgb(233, 148, 236);
+    }
+    .banner2 img {
+        
+        max-width: 600px;
+        height: fit-content;
+        padding-left: 30px;
+        padding-top: 20px;
+        padding-right: 100px;
+    }
+    
+    .banner2 h2 {
+        position:relative;
+        top: 0; right: 0;
+        padding: 5px;  color: rgb(2, 3, 10); font-size: x-large; 
+        font-style: italic;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+     .banner3{
+        background-size: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('images/mw-pic.jpg');
+        padding-bottom: 70px;
+        height: 500px;
+        background-repeat: no-repeat;
+        
+    }
+    footer {
+        background-color: black;
+        height: 300px;
+        line-height: 5px;
+        align-items: center;
+        align-content: center;
+        justify-content: space-between;
+    }
+    footer h1{
+        color: whitesmoke;
+        padding: 65px 400px 0px 400px;
+        text-align: center;
+    }
+    footer p {
+        color: whitesmoke;
+        padding: 0px 400px 0px 400px;
+        text-align: center;
+        
+    }
+    button{
+        border: 2px solid whitesmoke;
+        border-radius: 5px;
+        margin-left: ;
+        padding:7px 20px 15px 20px;
+        background-color: blueviolet;
+        text-decoration: none;
+        font-size: 1rem;
+       margin-bottom: 4rem;
+      
+
+
+
+    }
+    button:hover{
+        color: white;
+        background: whitesmoke;
+    }
+
+    @media (min-width: 900px) {
+        .banner1, .banner2, .banner3 {min-height: 70vh; padding: 4rem 1rem;}
+        .banner h1{font-size: 3rem;}
+    }
+    @media (max-width:420px) {
+        .banner h1 {
+            font-size:1.5rem;
+           color: yellow;
+        }
+
+    }
+    
+   
