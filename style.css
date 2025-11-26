@@ -5,6 +5,7 @@ body {
     background-color: rgb(77, 53, 99);
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 .web-header{
@@ -193,4 +194,5 @@ h1 {
 
     }
     
+
    
